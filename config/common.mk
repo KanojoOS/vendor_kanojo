@@ -114,6 +114,9 @@ SYSTEMUI_OPTIMIZE_JAVA ?= true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Bootanimation
+include vendor/kanojo/config/bootanimation.mk
+
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
